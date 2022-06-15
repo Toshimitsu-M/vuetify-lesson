@@ -1,4 +1,5 @@
 # vuetify_lesson
+vueで、マテリアルデザインとヘッダーとハンバーガーメニューの実装
 
 ## Project setup
 ```
