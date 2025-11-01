@@ -4,5 +4,7 @@ module.exports = {
   ],
   outputDir: 'docs',
   assetsDir: './',
-  publicPath: './',
+  // publicPath: './',
+  publicPath: process.env.NODE_ENV === 'production' ? '/AnimeApp/' : '/',
+  
 }
